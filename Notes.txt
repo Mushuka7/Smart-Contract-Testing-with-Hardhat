@@ -1,0 +1,48 @@
+// IMPORTANT NOTES FOR HARDHAT TESTING
+
+//INSTALLATIONS
+npm install --save-dev HARDHAT
+
+//PACKAGES
+"@celo/contractkit": "^9.0.0",
+"@emurgo/cardano-serialization-lib-nodejs": "^13.2.0",
+"@ethersproject/providers": "^5.7.2",
+"@nomicfoundation/hardhat-toolbox": "^5.0.0",
+"@openzeppelin/contracts": "^5.1.0",
+"@polkadot/api": "^15.1.1",
+"@remix-project/remixd": "^0.6.42",
+"moralis": "^2.27.2",
+"remixd": "^0.2.4",
+"ripple-lib": "^1.10.1",
+"xrpl": "^4.1.0"
+
+//IMPORTANT GLOBAL COMMENT HARDHAT
+GLOBAL OPTIONS:
+
+--config                A hardhatconfig file.
+--emoji                 Use emoji in messages.
+--help                  Shows this message, or a task's help if its name is provided.
+--max-memory            The maximum amount of memory that hardhat can use.
+--network               The network to connect to.
+--show-stack-traces     Show stack traces.
+--tsconfig              A TypeScript config file.
+--verbose               Enables hardhat verbose logging.
+--version               Shows hardhat's version.
+
+
+AVAILABLE TASKS:
+
+   check                Check whatever you need
+   clean                Clears the cache and deletes all artifacts
+   compile              Compiles the entire project, building all artifacts
+   console              Opens a hardhat console
+   coverage             Generates a code coverage report for tests
+   flatten              Flattens and prints contracts and their dependencies
+   help                 Prints this message
+   node                 Starts a JSON-RPC serveron top of Hardhat Network
+   run                  Runs a user-defined script after compiling the project
+   test                 Runs mocha tests
+   typechain            Generates Typechain typings for compiled contracts
+   verify               Verifies contract on etherscan
+
+   To get help for a specific task run: npx hardhat help [task]

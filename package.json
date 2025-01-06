@@ -1,0 +1,30 @@
+{
+  "name": "hardhat-testing",
+  "version": "1.0.0",
+  "main": "deploy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mushuka Mulenga",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "chai": "^5.1.2",
+    "hardhat": "^2.22.17",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "@celo/contractkit": "^9.0.0",
+    "@emurgo/cardano-serialization-lib-nodejs": "^13.2.0",
+    "@ethersproject/providers": "^5.7.2",
+    "@openzeppelin/contracts": "^5.1.0",
+    "@polkadot/api": "^15.1.1",
+    "@remix-project/remixd": "^0.6.42",
+    "moralis": "^2.27.2",
+    "remixd": "^0.2.4",
+    "ripple-lib": "^1.10.1",
+    "xrpl": "^4.1.0"
+  },
+  "type": "module"
+}
