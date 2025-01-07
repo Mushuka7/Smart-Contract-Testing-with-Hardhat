@@ -20,6 +20,7 @@ async function main() {
     await myTest.deployed();
 
     console.log(`Contract contain 1 ETH & address: ${myTest.address}`);
+    console.log(myTest);
 }
 
 main().catch((error) => {
